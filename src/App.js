@@ -1,11 +1,14 @@
 import React from 'react';
-import Design from './Components/Design';
+import Page from './Components/Page';
+import Box1 from './Components/Box1';
 
-function App() {
+function App() {  
   return (
-   <div>
-<Design/>
-   </div>
+    
+    <React.Fragment>
+      <Page/>
+      <Box1/>
+    </React.Fragment>
   );
 }
 
